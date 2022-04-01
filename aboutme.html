@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Robin Schellemans</title>
+        <link rel = "icon" type = "image/png" href = "pictures/logo-black.svg">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/global-v2.css" />
+        <link rel="stylesheet" href="css/aboutme-v2.css" />
+
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap');
+        </style>
+    
+    <script>
+        
+        window.onload = function() {
+            var sliders = document.getElementsByClassName("fake-slider");
+            for(var i in sliders){
+                sliders[i].disabled = true
+            }
+        };
+        
+
+        
+    </script>
+
+
+
+    </head>
+    <body>
+        <div class="topbar">
+            <object class="logo" data="pictures/logo.svg" type="image/svg+xml"></object>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li>
+                    <a href="#aboutme">About Me</a>
+                    <ul>  
+                        <li><a href="#more">More Info</a></li>
+                        <li><a href="#skills">projects</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div id="aboutme">
+                <div id="profile">
+                        <h3>Robin Schellemans</h3>
+                        <p>
+                            <b>Born:</b> 2003
+                            <br/><br />
+                            <b>Ocupation:</b><br /> Studying Embedded software at Thomas-more
+                            <br /><br />
+                            <b>Traits:</b><br /> creative, quick learner, introvert
+
+
+                        </p>
+                </div>
+
+                <img src="pictures/profile.jpg" title="picture of me"/>
+
+                <div id="embedded">
+                    <h3>Embedded Software</h3>
+                    <h3 class="ultra-bold">Developer</h3>
+                    <p id="quote">
+                        I'm a student with the goal to get better everyday, no matter what I'm learning.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div id="more">
+                <div id="more-title">
+                    <h2>
+                        More Info
+                    </h2>
+                </div>
+
+                <div class="cards">
+                    <div class="card">
+                        <h3>
+                            Background
+                        </h3>
+                        <p>
+                            I graduated high school with a degree in Maths and Science in Scheppers Institute Mechelen.
+                            During high school I spend a good amount of my free time learning a couple of software basics.
+                            I mostly wrote software in python, for several things like script and bots for a messasing platform.
+                            I hosted these bots on a raspberry-pi so I also learned how to use linux and got accustomed to it.
+                            My free time also had some creativity in it, I love to draw and be creative and as you can see, I designed my whole portfolio myself.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>
+                            Interests
+                        </h3>
+                        <p>
+                            I am mostly interested in software, and design. I love writing software and I'm fond of creating.
+                            I'm intrigued by the physchiology behind designs of websites, folders, other and how they can manipulate the consumer into doing the things you want them to do.
+                            Music is also something I'm really interested in. I play the violin and find it an amazing break between studying or working.
+
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>
+                            personality
+                        </h3>
+                        <p>
+                            I am a creative person that loves to learn and create. A quick learner is what I like to call myself. I seem to pick up things faster than others.
+                            You could also say I'm somewhat of a perfectionist, but only in some ways. I like structure, in code, files and names for example.
+                            I'm not a very outgoing person but I do feel that I can work good in a group if not even lead a group. Throughout my life I have worked together with other people and find myself taking the lead most of the time.
+
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>
+                            Current Ocupation
+                        </h3>
+                        <p>
+                            I'm currently studying electronics and ict at Thomas-More, with a bachelor in embedded software.
+                            I learn how to write software for embedded systems like washing machines or cars.
+                            I'm thinking about changing studies, I'm looking to do industrial engineering with a bachelor in electronics, at the university of KU-Leuven.
+                        </p>
+                    </div>
+                    <div class="card" id="skills">
+                        <label for="skill1">testing 1</label>
+                        <input type="range" min="1" max="10" value="5" class="fake-slider" id="skill1">    
+                        <br />                    
+                        <label for="skill2">slider2</label>
+                        <input type="range" min="1" max="10" value="5" class="fake-slider" id="skill2">
+                        <br />
+                        <label for="skill3">slider  1</label>
+                        <input type="range" min="1" max="10" value="5" class="fake-slider" id="skill3">
+                        <br />
+                        <label for="skill4">slider   1</label>
+                        <input type="range" min="1" max="10" value="5" class="fake-slider" id="skill4">
+                    </div>
+
+                </div>
+    
+            </div>
+        </div>
+
+        <footer>
+            <object class="logo" data="pictures/logo-green.svg" type="image/svg+xml"></object>
+            <div id="content">
+                <p>Author: Robin Schellemans</p>
+                <p><a href="mailto:r0879784@student.thomasmore.be">r0879784@student.thomasmore.be</a></p>
+            </div>
+
+        </footer>
+
+
+ 
+
+    </body>
+</html>

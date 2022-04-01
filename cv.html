@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="stylesheet" href="css/cv.css" />
+    <title>cv</title>
+
+    <script>
+        window.onload = function() {
+            var sliders = document.getElementsByClassName("fake-slider");
+            for(var i in sliders){
+                sliders[i].disabled = true
+            }
+        };
+        
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap');
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Robin Schellemans</h1>
+            <p id="subtitle">Student</p>
+        
+            <hr>
+        </header>
+        <div id="content">
+            <div id="left">
+                <div class="section">
+                    <h2>Details</h2>
+                    <h3>Adres</h3>
+                    <p>Kompenhofstraat 50</p>
+                    <p>1980 Eppegem</p>
+                    <h3>Telefoon</h3>
+                    <p>+32 472 59 86 99</p>
+                    <h3>Email</h3>
+                    <p>robin.schellemans174@gmail.com</p>
+                </div>
+                <!--
+                <div class="section">
+                    <h2>LINKS</h2>
+                    <a href="https://n1b0rr.github.io/portfolio/">https://n1b0rr.github.io/portfolio/</a>
+                </div>
+                -->
+                <div class="section">
+                    <h2>Taalkennis</h2>
+                    <h3>Nederlands</h3>
+                    <div class="slider"><img src="pictures/gray.png"p><img class="black" id="s9" src="pictures/black.png"></div>
+                    <h3>Engels</h3>
+                    <div class="slider"><img src="pictures/gray.png"p><img class="black" id="s8" src="pictures/black.png"></div>
+                    <h3>Frans</h3>
+                    <div class="slider"><img src="pictures/gray.png"p><img class="black" id="s5" src="pictures/black.png"></div>
+                </div>
+                <div class="section">
+                    <h2>Hobbies</h2>
+                    <p>Ski&euml;n, viool en tekenen</p>
+                </div>
+            </div>
+            <div id="right">
+                <div class="section">
+                    <h2>
+                        Profiel
+                    </h2>
+                    <p>
+                        Ik studeer Embedded software aan Thomas-More in Sint-Katelijne-Waver.
+                         Ik heb ervaring in web-development, python, C, C#, assembly en linux.
+                         Ik ben zeer gemotiveerd om nieuwe dingen bij te leren. Ook werken in groep is een sterkte van mij.
+                    </p>
+                </div>
+                <div class="section">
+                    <h2>
+                        Studies
+                    </h2>
+                    <h3>
+                        Wetenschappen-wiskunde,
+                        <br />
+                        Scheppers-instituut
+                        <br />
+                        <span id="city">Mechelen</span>
+                    </h3>
+                    <p>
+                        Tijdens mijn studies heb ik een scriptie geschreven over pathfinding algoritmes die toegepast kunnen worden op video-games.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
